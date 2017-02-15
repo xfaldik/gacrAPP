@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="cz.gacr.dao.EnterpriseDaoTest" duration-ms="63861" started-at="2017-02-15T20:59:31Z" finished-at="2017-02-15T21:00:35Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="63861" started-at="2017-02-15T20:59:31Z" finished-at="2017-02-15T21:00:35Z">
+      <class name="cz.gacr.dao.EnterpriseDaoTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:cz.gacr.dao.EnterpriseDaoTest@7a187f14]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="11" started-at="2017-02-15T21:59:31Z" finished-at="2017-02-15T21:59:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:cz.gacr.dao.EnterpriseDaoTest@7a187f14]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="60140" started-at="2017-02-15T21:59:31Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2017-02-15T22:00:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:cz.gacr.dao.EnterpriseDaoTest@7a187f14]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="618" started-at="2017-02-15T22:00:31Z" finished-at="2017-02-15T22:00:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cz.gacr.dao.EnterpriseDaoTest.testDelete()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testDelete()[pri:0, instance:cz.gacr.dao.EnterpriseDaoTest@7a187f14]" name="testDelete" duration-ms="837" started-at="2017-02-15T22:00:32Z" finished-at="2017-02-15T22:00:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:cz.gacr.dao.EnterpriseDaoTest@7a187f14]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="140" started-at="2017-02-15T22:00:33Z" finished-at="2017-02-15T22:00:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cz.gacr.dao.EnterpriseDaoTest.testDelete()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:cz.gacr.dao.EnterpriseDaoTest@7a187f14]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="557" started-at="2017-02-15T22:00:33Z" finished-at="2017-02-15T22:00:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cz.gacr.dao.EnterpriseDaoTest.testFindAll()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testFindAll()[pri:0, instance:cz.gacr.dao.EnterpriseDaoTest@7a187f14]" name="testFindAll" duration-ms="424" started-at="2017-02-15T22:00:33Z" finished-at="2017-02-15T22:00:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindAll -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:cz.gacr.dao.EnterpriseDaoTest@7a187f14]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="138" started-at="2017-02-15T22:00:34Z" finished-at="2017-02-15T22:00:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cz.gacr.dao.EnterpriseDaoTest.testFindAll()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:cz.gacr.dao.EnterpriseDaoTest@7a187f14]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="562" started-at="2017-02-15T22:00:34Z" finished-at="2017-02-15T22:00:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cz.gacr.dao.EnterpriseDaoTest.testSave()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testSave()[pri:0, instance:cz.gacr.dao.EnterpriseDaoTest@7a187f14]" name="testSave" duration-ms="285" started-at="2017-02-15T22:00:35Z" finished-at="2017-02-15T22:00:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSave -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:cz.gacr.dao.EnterpriseDaoTest@7a187f14]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="139" started-at="2017-02-15T22:00:35Z" finished-at="2017-02-15T22:00:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cz.gacr.dao.EnterpriseDaoTest.testSave()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:cz.gacr.dao.EnterpriseDaoTest@7a187f14]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2017-02-15T22:00:35Z" finished-at="2017-02-15T22:00:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- cz.gacr.dao.EnterpriseDaoTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- cz.gacr.dao.EnterpriseDaoTest -->
+</testng-results>

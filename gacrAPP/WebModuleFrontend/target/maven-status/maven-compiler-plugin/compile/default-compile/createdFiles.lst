@@ -1,0 +1,6 @@
+cz/gacr/mvc/config/MvcConfig.class
+cz/gacr/mvc/security/SecurityConfig.class
+cz/gacr/mvc/config/WebInitializer.class
+cz/gacr/mvc/controller/HomepageController.class
+cz/gacr/mvc/controller/RegistrationController.class
+cz/gacr/mvc/security/MessageSecurityWebApplicationInitializer.class

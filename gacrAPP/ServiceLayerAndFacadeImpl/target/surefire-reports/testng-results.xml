@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="60033" started-at="2017-02-15T21:00:39Z" finished-at="2017-02-15T21:01:39Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="60033" started-at="2017-02-15T21:00:39Z" finished-at="2017-02-15T21:01:39Z">
+      <class name="cz.gacr.services.EnterpriseServiceTest">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:cz.gacr.services.EnterpriseServiceTest@1d8d30f7]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="3" started-at="2017-02-15T22:01:39Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2017-02-15T22:01:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:cz.gacr.services.EnterpriseServiceTest@1d8d30f7]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2017-02-15T22:01:39Z" finished-at="2017-02-15T22:01:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:cz.gacr.services.EnterpriseServiceTest@1d8d30f7]" name="setup" is-config="true" duration-ms="12" started-at="2017-02-15T22:01:39Z" finished-at="2017-02-15T22:01:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:cz.gacr.services.EnterpriseServiceTest@1d8d30f7]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2017-02-15T22:01:39Z" finished-at="2017-02-15T22:01:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cz.gacr.services.EnterpriseServiceTest.testFindAll()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testFindAll()[pri:0, instance:cz.gacr.services.EnterpriseServiceTest@1d8d30f7]" name="testFindAll" duration-ms="1" started-at="2017-02-15T22:01:39Z" finished-at="2017-02-15T22:01:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindAll -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:cz.gacr.services.EnterpriseServiceTest@1d8d30f7]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-02-15T22:01:39Z" finished-at="2017-02-15T22:01:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cz.gacr.services.EnterpriseServiceTest.testFindAll()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="testFindById()[pri:0, instance:cz.gacr.services.EnterpriseServiceTest@1d8d30f7]" name="testFindById" duration-ms="0" started-at="2017-02-15T22:01:39Z" finished-at="2017-02-15T22:01:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindById -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:cz.gacr.services.EnterpriseServiceTest@1d8d30f7]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-02-15T22:01:39Z" finished-at="2017-02-15T22:01:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cz.gacr.services.EnterpriseServiceTest.testFindById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:cz.gacr.services.EnterpriseServiceTest@1d8d30f7]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2017-02-15T22:01:39Z" finished-at="2017-02-15T22:01:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:cz.gacr.services.EnterpriseServiceTest@1d8d30f7]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-02-15T22:01:39Z" finished-at="2017-02-15T22:01:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cz.gacr.services.EnterpriseServiceTest.testFindById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+      </class> <!-- cz.gacr.services.EnterpriseServiceTest -->
+      <class name="cz.gacr.facade.EnterpriseFacadeTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:cz.gacr.facade.EnterpriseFacadeTest@6f195bc3]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="8" started-at="2017-02-15T22:00:39Z" finished-at="2017-02-15T22:00:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:cz.gacr.facade.EnterpriseFacadeTest@6f195bc3]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="59590" started-at="2017-02-15T22:00:39Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2017-02-15T22:01:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:cz.gacr.facade.EnterpriseFacadeTest@6f195bc3]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="4" started-at="2017-02-15T22:01:39Z" finished-at="2017-02-15T22:01:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cz.gacr.facade.EnterpriseFacadeTest.testFindAllTrainersFacade() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:cz.gacr.facade.EnterpriseFacadeTest@6f195bc3]" name="setUp" is-config="true" duration-ms="322" started-at="2017-02-15T22:01:39Z" finished-at="2017-02-15T22:01:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testFindAllTrainersFacade()[pri:0, instance:cz.gacr.facade.EnterpriseFacadeTest@6f195bc3]" name="testFindAllTrainersFacade" duration-ms="57" started-at="2017-02-15T22:01:39Z" finished-at="2017-02-15T22:01:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindAllTrainersFacade -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:cz.gacr.facade.EnterpriseFacadeTest@6f195bc3]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="2" started-at="2017-02-15T22:01:39Z" finished-at="2017-02-15T22:01:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cz.gacr.facade.EnterpriseFacadeTest.testFindAllTrainersFacade() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:cz.gacr.facade.EnterpriseFacadeTest@6f195bc3]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2017-02-15T22:01:39Z" finished-at="2017-02-15T22:01:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cz.gacr.facade.EnterpriseFacadeTest.testGetTrainerByIdFacade() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:cz.gacr.facade.EnterpriseFacadeTest@6f195bc3]" name="setUp" is-config="true" duration-ms="2" started-at="2017-02-15T22:01:39Z" finished-at="2017-02-15T22:01:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGetTrainerByIdFacade()[pri:0, instance:cz.gacr.facade.EnterpriseFacadeTest@6f195bc3]" name="testGetTrainerByIdFacade" duration-ms="3" started-at="2017-02-15T22:01:39Z" finished-at="2017-02-15T22:01:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTrainerByIdFacade -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:cz.gacr.facade.EnterpriseFacadeTest@6f195bc3]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2017-02-15T22:01:39Z" finished-at="2017-02-15T22:01:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void cz.gacr.facade.EnterpriseFacadeTest.testGetTrainerByIdFacade() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:cz.gacr.facade.EnterpriseFacadeTest@6f195bc3]" name="springTestContextAfterTestClass" is-config="true" duration-ms="3" started-at="2017-02-15T22:01:39Z" finished-at="2017-02-15T22:01:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- cz.gacr.facade.EnterpriseFacadeTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
